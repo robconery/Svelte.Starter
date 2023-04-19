@@ -1,0 +1,13 @@
+{
+  "name": "minimal",
+  "version": "1.0.0",
+  "description": "Hello and welcome to the ASP.NET Svelte Starter Template with ASP.NET Minimal API and Svelte 3.0. The only things this template contains are:",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dotnet watch --project ./server",
+    "start": "dotnet run --project ./server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

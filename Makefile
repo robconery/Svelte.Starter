@@ -2,7 +2,7 @@ pack:
 	dotnet pack
 
 template_dir:
-	mkdir "templates/vue/.template.config"
+	mkdir "templates/svelte/.template.config"
 
 template_config:
-	touch "templates/vue/.template.config/template.json"
+	touch "templates/svelte/.template.config/template.json"

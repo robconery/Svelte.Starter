@@ -3,15 +3,15 @@
   <PropertyGroup>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <NoDefaultExcludes>true</NoDefaultExcludes>
-    <PackageReadmeFile>content/templates/vue/README.md</PackageReadmeFile>
-    <PackageIcon>content/templates/vue/icon.png</PackageIcon>
+    <PackageReadmeFile>content/templates/svelte/README.md</PackageReadmeFile>
+    <PackageIcon>content/templates/svelte/icon.png</PackageIcon>
     <PackageType>Template</PackageType>
-    <PackageVersion>1.1.5</PackageVersion>
-    <PackageId>Vue.Web.Starter</PackageId>
-    <Title>ASP.NET Core with Vue 3</Title>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageId>Svelte.Web.Starter</PackageId>
+    <Title>ASP.NET Core with Svelte 3</Title>
     <Authors>Rob Conery</Authors>
-    <Description>ASP.NET Core Web Application with Vue 3</Description>
-    <PackageTags>dotnet-new;templates;mvc;web;vue</PackageTags>
+    <Description>ASP.NET Core Web Application with Svelte and Tailwind</Description>
+    <PackageTags>dotnet-new;templates;mvc;web;svelte</PackageTags>
     <TargetFramework>net7.0</TargetFramework>
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>

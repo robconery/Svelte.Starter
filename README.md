@@ -1,22 +1,22 @@
-## The ASP.NET Vue Starter Template
+## The ASP.NET Svelte Starter Template
 
-This is the starter template for ASP.NET and Vue, which will hopefully get you off the ground quickly. Further instructions for how to use this template are in `templates/README.md`.
+This is the starter template for ASP.NET and Svelte, which will hopefully get you off the ground quickly. Further instructions for how to use this template are in `templates/README.md`.
 
 To install this template, simply:
 
 ```
-dotnet new install Vue.Web.Starter
+dotnet new install Svelte.Web.Starter
 ```
 
 Which will allow you to:
 
 ```
-dotnet new vue
+dotnet new svelte
 ```
 
 ## Documentation and Help
 
-There are READMEs throughout the codebase and, hopefully, enough to go on there. At the end of the day it's a Minimal API + Vue 3 application and you can find links to the documentation for those in the READMEs.
+There are READMEs throughout the codebase and, hopefully, enough to go on there. At the end of the day it's a Minimal API + Svelte application and you can find links to the documentation for those in the READMEs.
 
 ## Questions?
 

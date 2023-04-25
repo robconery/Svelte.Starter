@@ -25,6 +25,11 @@ npm run dev
 npm run dev -- --open
 ```
 
+## Tests
+[Playwright](https://playwright.dev) is set up for you, along with the example tests for your reference. You can run these using `npx` and Playwright directly (`npx playwright test`) or the more traditional `npm run test`. 
+
+Right now the tests are setup to work with the Minimal API bits, ensuring content is delivered from the backend. For this to work, you'll need to be sure you run `npm run dev` from the root of the project so both API and frontend have started up.
+
 ## Building
 
 To create a production version of your app:

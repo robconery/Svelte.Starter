@@ -25,15 +25,15 @@ onMount( async () => {
 
 </script>
 <TwelveEighty>
-  <section class="text-gray-600 body-font py-24">
+  <section class="text-gray-600 body-font py-24" aria-label="Hero">
     <Hero {...docs.hero}></Hero>
   </section>
-  <section class="text-gray-600 body-font">
+  <section class="text-gray-600 body-font" aria-label="Features">
 
     <div class="container px-5 mx-auto">
       <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6" >
       {#each features as feature}
-        <Feature body={feature.html} title={feature.title} link={feature.url} icon={feature.icon}/>
+        <Feature body={feature.html} title={feature.title} link={feature.url} icon={feature.icon} />
       {/each}
 
       </div>

@@ -47,7 +47,6 @@ The idea is simple: your documents are loaded at startup, parsed and added to a 
 
 As you'll hopefully see, Minimal API *feels* like lightweight web frameworks in other platforms, such as Flask (Python), Sinatra (Ruby) and Express (Node). Lightweight, easy to use and blazingly fast.
 
-
 ## Deployment
 
 When you create Svelte applications, you do so with the help of a web server so you can see what you're creating as you create it. When it comes time to deploy, however, what you've created needs to be "transpiled" into individual JavaScript files and a static HTML page from which to serve them.
@@ -68,23 +67,19 @@ It's important that this step is run prior to deployment, otherwise you won't se
 
 ## Azure Deployment
 
-In the `/server/Deployment/Azure` directory you'll see two script files:
+The template contains the scripts to deploy using the [Azure Developer CLI (`azd`)](https://aka.ms/azd) and can be run using:
 
- - `app_service.sh` is the script file that will help you create the resource on Azure that you need. It will also create a...
- - `zip.sh` file, which will push your site up using a direct zip push. This file is generated, but if you need to reproduce it manually, it looks something like this:
-
-```sh
-rm ./Deployment/Azure/deploy.zip
-rm -R bin/Release
-dotnet publish --configuration Release
-cd bin/Release/net7.0/publish/
-zip -r ../../../../Deployment/Azure/deploy.zip . -q
-cd -
-az webapp deployment source config-zip --resource-group $RG --name $APPNAME --src ./Deployment/Azure/deploy.zip
-open https://$APPNAME.azurewebsites.net
-echo 'Site's been pushed, watching logs...'
-az webapp log tail -n $APPNAME -g $RG
+```bash
+azd up
 ```
+
+In the long term you'll obviously want to use a more structured deployment process, but to just "get something up now" you can run `azd up` (assuming you have the Azure Developer CLI `azd` and are logged in). To generate a GitHub Actions workflow run:
+
+```bash
+azd pipeline config
+```
+
+You can learn how to configure other pipeline options [on the docs](https://learn.microsoft.com/azure/developer/azure-developer-cli/configure-devops-pipeline?tabs=azdo).
 
 ## Using Make
 
@@ -105,4 +100,3 @@ docker run -p 8080:80 Svelte.Starter
 ## Questions? Issues?
 
 The [GitHub repo for this template is here](https://github.com/robconery/Svelte.Starter). I don't have discussions enabled, but feel free to pop an issue if you like or, better yet, a PR!
-

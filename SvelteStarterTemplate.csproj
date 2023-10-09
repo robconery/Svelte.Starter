@@ -6,7 +6,7 @@
     <PackageReadmeFile>content/templates/svelte/README.md</PackageReadmeFile>
     <PackageIcon>content/templates/svelte/icon.png</PackageIcon>
     <PackageType>Template</PackageType>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <PackageId>Svelte.Web.Starter</PackageId>
     <Title>ASP.NET Core with Svelte 3</Title>
     <Authors>Rob Conery</Authors>

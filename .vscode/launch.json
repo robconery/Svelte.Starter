@@ -10,7 +10,7 @@
       "request": "launch",
       "preLaunchTask": "build",
       // If you have changed target frameworks, make sure to update the program path.
-      "program": "${workspaceFolder}/templates/svelte/server/bin/Debug/net7.0/Svelte.Starter.dll",
+      "program": "${workspaceFolder}/templates/svelte/server/bin/Debug/net8.0/Svelte.Starter.dll",
       "args": [],
       "cwd": "${workspaceFolder}/templates/svelte/server",
       "stopAtEntry": false,

@@ -71,7 +71,7 @@ echo "rm -R bin/Release" >> $ZIPSCRIPT
 echo "dotnet publish --configuration Release" >> $ZIPSCRIPT
 
 
-echo "cd bin/Release/net7.0/publish/" >>$ZIPSCRIPT
+echo "cd bin/Release/net8.0/publish/" >>$ZIPSCRIPT
 echo "zip -r ../../../../Deployment/Azure/deploy.zip . -q"  >> $ZIPSCRIPT
 echo "cd -" >> $ZIPSCRIPT
 

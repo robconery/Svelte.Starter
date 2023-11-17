@@ -12,7 +12,7 @@
     <Authors>Rob Conery</Authors>
     <Description>ASP.NET Core Web Application with Svelte and Tailwind</Description>
     <PackageTags>dotnet-new;templates;mvc;web;svelte</PackageTags>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <ContentTargetFolders>content</ContentTargetFolders>

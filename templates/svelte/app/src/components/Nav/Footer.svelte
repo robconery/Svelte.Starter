@@ -45,12 +45,10 @@ import { siteNav } from "../../stores";
 
       <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
         {#each siteNav.social as link}
-        <a  class="text-gray-500" href="{link.url}">
-          <i class="w-8 h-8 mr-2" :class="{link.icon}"></i>
-        </a>
+          <a class="text-gray-500" href="{link.url}">
+            <i class="w-8 h-8 mr-2 {link.icon}"></i>
+          </a>
         {/each}
-
-
       </span>
     </div>
   </div>

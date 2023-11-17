@@ -7,7 +7,7 @@ let features = [];
 let docs = {};
 
 onMount( async () => {
-  const res = await fetch("http://localhost:8000/api/content/home");
+  const res = await fetch("/api/content/home");
   const content = await res.json();
   content.forEach(d => {
     docs[d.slug.toLowerCase()] = d;

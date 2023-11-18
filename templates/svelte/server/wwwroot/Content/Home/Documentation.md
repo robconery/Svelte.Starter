@@ -1,6 +1,6 @@
 ---
 title: Documentation
-icon: fa-solid fa-book
+icon: fa fa-solid fa-book
 index: 1
 ---
 

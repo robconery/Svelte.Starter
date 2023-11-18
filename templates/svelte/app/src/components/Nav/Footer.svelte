@@ -12,7 +12,7 @@ import { siteNav } from "../../stores";
           <nav class="list-none mb-10">
             {#each cat.links as link}
             <li v-for="(link,idx) of item.links">
-              <a class="text-gray-600 hover:text-gray-800" href="{cat.url}">{ cat.name }</a>
+              <a class="text-gray-600 hover:text-gray-800" href="{link.url}">{ link.name }</a>
             </li>
             {/each}
           </nav>
@@ -45,9 +45,9 @@ import { siteNav } from "../../stores";
 
       <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
         {#each siteNav.social as link}
-        <a class="text-gray-500" href="{link.url}">
-          <i class="w-8 h-8 mr-2 {link.icon}"></i>
-        </a>
+          <a class="text-gray-500" href="{link.url}">
+            <i class="w-8 h-8 mr-2 {link.icon}"></i>
+          </a>
         {/each}
       </span>
     </div>

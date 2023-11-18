@@ -1,6 +1,6 @@
 ---
 title: Community
-icon: fa-solid fa-users-line
+icon: fa fa-solid fa-users
 index: 4
 ---
 

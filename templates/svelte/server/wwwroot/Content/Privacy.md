@@ -1,6 +1,6 @@
 ---
 title: Our Privacy Policy
-icon: fa-solid fa-screwdriver-wrench
+icon: fa fa-solid fa-wrench
 ---
 
 ## Lorem Ipsum

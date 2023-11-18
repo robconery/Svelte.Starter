@@ -1,6 +1,6 @@
 ---
 title: Ecosystem
-icon: fa-brands fa-rebel
+icon: fa fa-brands fa-rebel
 index: 3
 ---
 

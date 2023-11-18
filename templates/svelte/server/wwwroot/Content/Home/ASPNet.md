@@ -1,6 +1,6 @@
 ---
 title: ASP.NET Help
-icon: fa-regular fa-star
+icon: fa fa-regular fa-star
 index: 5
 ---
 
